@@ -1,0 +1,1 @@
+export const Queue_Group_Name = 'payments-service';

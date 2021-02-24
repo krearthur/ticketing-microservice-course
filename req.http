@@ -1,0 +1,69 @@
+### Create user
+POST https://ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+  "email": "testing1@test.com",
+  "password": "password"
+}
+
+### Sign in
+POST https://ticketing.dev/api/users/signin
+Content-Type: application/json
+
+{
+  "email": "testing1@test.com",
+  "password": "password"
+}
+
+### Get logged in user
+GET https://ticketing.dev/api/users/currentUser
+
+### Get tickets of user
+GET https://ticketing.dev/api/tickets
+Content-Type: application/json
+
+### Create ticket
+POST https://ticketing.dev/api/tickets
+Content-Type: application/json
+
+{
+  "title": "Awesome concert 23",
+  "price": 34
+}
+
+### Update ticket
+PUT https://ticketing.dev/api/tickets/601cfa1948eef8001a1d0383
+Content-Type: application/json
+
+{
+  "title": "Very Awesome concert",
+  "price": 1243
+}
+
+### Get orders
+GET https://ticketing.dev/api/orders
+Content-Type: application/json
+
+
+### Create order
+POST https://ticketing.dev/api/orders
+Content-Type: application/json
+
+{
+  "ticketId": "602e1b45ae4aeb0019dd51f4"
+}
+
+### Delete order
+DELETE https://ticketing.dev/api/orders/60280ed1f465370019b6aa9d
+Content-Type: application/json
+
+### Payments
+POST https://ticketing.dev/api/payments
+Content-Type: application/json
+
+{
+  "token": "tok_visa",
+  "orderId": "602e1bf2d2f8fe0019189373"
+}
+
