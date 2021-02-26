@@ -28,7 +28,7 @@ POST https://ticketing.dev/api/tickets
 Content-Type: application/json
 
 {
-  "title": "Awesome concert 23",
+  "title": "Awesome concert 230",
   "price": 34
 }
 
