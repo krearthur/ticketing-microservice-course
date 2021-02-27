@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
   rules:
-    - host: real.ticketing.dev # subdomin in krearthur anlegen!!!
+    - host: ticketing.krearthur.de
       http:
         paths:
           - path: /api/payments/?(.*)
