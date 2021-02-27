@@ -28,7 +28,7 @@ POST https://ticketing.dev/api/tickets
 Content-Type: application/json
 
 {
-  "title": "Awesome concert 23",
+  "title": "Awesome concert 230",
   "price": 34
 }
 
@@ -51,7 +51,7 @@ POST https://ticketing.dev/api/orders
 Content-Type: application/json
 
 {
-  "ticketId": "602e1b45ae4aeb0019dd51f4"
+  "ticketId": "asdf"
 }
 
 ### Delete order
