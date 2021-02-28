@@ -5,7 +5,7 @@ import axios from 'axios';
 const buildClient = ({ req }) => {
   if (typeof window === 'undefined') { 
     // We are on the server!
-    // requests insight k8s to another service must follow this url:
+    // Requests insight k8s to another service must follow this url:
     // http://SERVICENAME.NAMESPACE.svc.cluster.local/normal-route-here
 
     return axios.create({
