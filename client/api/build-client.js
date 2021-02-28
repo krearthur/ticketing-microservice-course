@@ -9,7 +9,7 @@ const buildClient = ({ req }) => {
     // http://SERVICENAME.NAMESPACE.svc.cluster.local/normal-route-here
 
     return axios.create({
-      baseURL: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+      baseURL: 'http://www.agrohe-dev-ticketing.xyz',
       headers: req.headers
     });
   }
