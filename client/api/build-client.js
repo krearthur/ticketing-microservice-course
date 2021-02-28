@@ -10,7 +10,7 @@ const buildClient = ({ req }) => {
 
     return axios.create({
       // baseURL: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
-      baseURL: 'https://dev.krearthur.de',
+      baseURL: 'https://www.agrohe-dev-ticketing.xyz',
       headers: req.headers
     });
   }
